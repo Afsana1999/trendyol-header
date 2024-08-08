@@ -1,0 +1,27 @@
+@import '../../layout/header';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  padding: 0 13rem;
+  box-sizing: border-box;
+}
+
+.col-1{
+    width: calc(100%/12*1);
+}
+
+.col-8{
+    width: calc(100%/12*8);
+}
+
+.col-3{
+    width: calc(100%/12*3);
+}
+.padding{
+    padding: 0 10px;
+}

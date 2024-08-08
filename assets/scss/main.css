@@ -1,0 +1,144 @@
+header {
+  font-size: 17px;
+}
+header li {
+  list-style-type: none;
+  text-align: center;
+}
+header ul {
+  display: flex;
+}
+header .first-line {
+  display: flex;
+  justify-content: end;
+  font-size: 12px;
+  color: gray;
+}
+header .first-line li {
+  padding: 6px;
+}
+header .second-line {
+  display: grid;
+  grid-template-columns: repeat(3, 10% 60% 30%);
+}
+header .second-line .logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header .second-line .logo img {
+  height: 60px;
+}
+header .second-line input {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(245, 243, 243);
+}
+header .second-line .search {
+  text-align: center;
+  align-content: center;
+}
+header .user-content {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+header .user-content span {
+  padding-left: 4px;
+}
+header .third-line li {
+  margin: 0 20px;
+}
+header .user-name-dropdown {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  border: 1px solid rgb(191, 189, 189);
+  border-radius: 5px;
+  top: 75px;
+  right: 400px;
+  background-color: rgb(252, 251, 251);
+}
+header .user-name-dropdown span {
+  display: inline-block;
+}
+header .user-name-dropdown .mail {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  padding: 5px 10px;
+}
+header .user-name-dropdown ul {
+  display: inline-block;
+}
+header .user-name-dropdown ul li {
+  padding: 7px 13px;
+}
+header .user-name:hover .user-name-dropdown {
+  display: inline-block;
+}
+header .woman-list-dropdown {
+  height: 450px;
+  position: absolute;
+  border-left: 1px solid rgb(206, 204, 204);
+  border-right: 1px solid rgb(206, 204, 204);
+  border-bottom: 1px solid rgb(206, 204, 204);
+  top: 116px;
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+  left: 225px;
+  display: none;
+  z-index: 2;
+}
+header .woman-list-dropdown ul {
+  display: block;
+}
+header .woman-list-dropdown .list-title {
+  margin: 10px 0;
+  font-weight: 600;
+}
+header .woman-list-dropdown li {
+  padding: 3px 0;
+}
+header .woman-list-dropdown .flex {
+  display: flex;
+}
+header .woman-list-dropdown .list-item {
+  padding: 0 45px;
+}
+header .third-line > ul > li:hover {
+  color: orange;
+  border-bottom: 3px solid orange;
+}
+header .woman:hover .woman-list-dropdown {
+  display: inline-block;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 13rem;
+  box-sizing: border-box;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.padding {
+  padding: 0 10px;
+}/*# sourceMappingURL=main.css.map */
